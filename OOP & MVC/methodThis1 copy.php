@@ -17,6 +17,12 @@ class Employee
     {
         return $this->salary;
     }
+
+    // Метод для проверки возраста:
+    public function addSalary($summ)
+    {
+        $newSalary = $this->salary + $summ; // вычислим новый возраст
+    }
 }
 $employee1 = new Employee;
 $employee1->name = 'Misa';
