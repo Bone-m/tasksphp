@@ -7,6 +7,11 @@ http://code.mu/ru/php/book/prime/functions/recursion/<br>
 <i>count — Подсчитывает количество элементов массива или Countable объекте</i><br>
 <i>!== Тождественно не равно</i><br>
 
+<i>array_shift — Извлекает первый элемент массива</i><br>
+
+
+
+
 
 <?php
 function func($arr)

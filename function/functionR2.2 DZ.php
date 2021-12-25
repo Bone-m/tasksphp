@@ -6,6 +6,7 @@ http://code.mu/ru/php/book/prime/functions/recursion/<br>
 <i>Давайте теперь используем рекурсию:</i><br>
 <i>count — Подсчитывает количество элементов массива или Countable объекте</i><br>
 <i>!== Тождественно не равно</i><br>
+<i>array_shift — Извлекает первый элемент массива</i><br>
 
 
 <?php

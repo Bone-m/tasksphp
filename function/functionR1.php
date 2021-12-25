@@ -10,17 +10,15 @@ http://code.mu/ru/php/book/prime/functions/recursion/<br>
 <?php
 $i = 1;
 
-function func()
-{
-    $i = 1;
-    echo $i;
+function func($i){
+    echo $i . "<br>";
     $i++;
 
-    if ($i <= 10) {
-        func(); // здесь функция вызывает сама себя
+    if ($i <= 10){
+        func($i); // здесь функция вызывает сама себя
     }
 }
-func();
+func($i);
 ?>
 Давайте обсудим, как работает этот код.<br>
 <br>

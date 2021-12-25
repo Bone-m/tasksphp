@@ -1,0 +1,12 @@
+<?php
+//Пример 5.27. Обращение к отдельному файлу в исходном коде
+require 'restaurant-functions.php'; // Можно воспользоваться include
+/* Счет на 25 долларов США плюс налог на добавленную
+стоимость (8,875%) и чаевые (20%) */
+$total_bill = restaurant_check(25, 8.875, 20);
+/* Имеется 30 долларов США наличными */
+$cash = 30;
+print  $total_bill."> ". $cash ."<br>";
+printf("Требуется оплатить $%.2f > Наличных $%.2f", $total_bill,$cash);
+echo "<br>";
+print "I need to pay with " . payment_method($cash, $total_bill);
