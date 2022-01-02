@@ -1,4 +1,4 @@
-<form method="post" action="order.php">
+<form method="post" action="15-1 Form.php">
     Your Order: <select name="order">
         <option value="puff">Sesame Seed Puff</option>
         <option value="square">Coconut Milk Gelatin Square</option>
