@@ -11,7 +11,7 @@
 Пример 7.2. Двухэлементная форма<br>
 <!--если переменные не были переданы методом POST, в примере 7.3
 применяется нулеобъединяющая операция ??-->
-<form method="POST" action="catalog.php">
+<form method="POST" action="1 catalog_ДвухэлементнаяFорма.php">
     <input type="text" name="product_id">
     <select name="category">
         <option value="ovenmitt">Pot Holder</option>
