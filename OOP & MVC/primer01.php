@@ -1,5 +1,5 @@
 <?php
-echo 'Класс MyClass инициализирован!' . '<br>';
+echo 'Задача Класс MyClass инициализирован!' . '<br>';
 class MyClass
 {
     public function muh()
